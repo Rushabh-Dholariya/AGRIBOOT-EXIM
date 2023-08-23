@@ -5,20 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AGRIBOOT EXIM</title>
         <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous"
+        >
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
-                <a class="navbar-brand mb-4" href="#">
-                    <img
-                        class="img-fluid mt-4"
-                        src="img/Agriboot Exim Corporation.png"
-                        style="height: 6rem;width: 9rem;"
-                        alt=""
-                    >
-                </a>
+        <div class="container-fluid position-absolute z-2 border-bottom">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <button
                     class="navbar-toggler bg-light"
                     type="button"
@@ -30,9 +27,19 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse text-center fw-bold justify-content-around start-0 navbar-collapse end" id="navbarSupportedContent">
-                    <ul class="navbar-nav e mb-2 mb-lg-0 gap-5">
+                <div class="collapse text-center fw-bold justify-content-evenly start-0 navbar-collapse end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0 gap-4 align-items-center">
                         <li class="nav-item">
+                            <a class="navbar-brand mb-4" href="#">
+                                <img
+                                    class="img-fluid mt-2"
+                                    src="img/Agriboot Exim Corporation.png"
+                                    style="height: 8rem;width: 11rem;"
+                                    alt=""
+                                >
+                            </a>
+                        </li>
+                        <li class="nav-item ms-5">
                             <a class="nav-link text-black" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
@@ -51,48 +58,179 @@
                 </div>
             </nav>
         </div>
-
         <!-- front page -->
-        <div class="container-fluid">
+        <div class="container-fluid frontpage position-relative z-0 overflow-hidden px-0">
             <div class="row">
-                <div class="col-12">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        </div>
+                <div class="col">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="img/first.png" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/second.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/third.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/forth.jpg" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="img/fifth.jpg" class="d-block w-100" alt="...">
-                          </div>
+                            <div class="carousel-item active" style="height: 45rem;">
+                                <img
+                                    src="img/first.png"
+                                    class="d-block w-100"
+                                    style="height: 45rem;"
+                                    alt="..."
+                                >
+                            </div>
+                            <div class="carousel-item" style="height: 45rem;">
+                                <img
+                                    src="img/second.jpg"
+                                    class="d-block w-100"
+                                    style="height: 45rem;"
+                                    alt="..."
+                                >
+                            </div>
+                            <div class="carousel-item" style="height: 45rem;">
+                                <img
+                                    src="img/third.jpg"
+                                    class="d-block w-100"
+                                    style="height: 45rem;"
+                                    alt="..."
+                                >
+                            </div>
+                            <div class="carousel-item" style="height: 45rem;">
+                                <img
+                                    src="img/forth.jpg"
+                                    class="d-block w-100"
+                                    style="height: 45rem;"
+                                    alt="..."
+                                >
+                            </div>
+                            <div class="carousel-item" style="height: 45rem;">
+                                <img
+                                    src="img/fifth.jpg"
+                                    class="d-block w-100"
+                                    style="height: 45rem;"
+                                    alt="..."
+                                >
+                            </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev"
+                        >
+                            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next"
+                        >
+                            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                            <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- first page -->
+        <div class="container-fluid firstbg">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 wow zoomIn">
+                        <img class="first" src="img/stamp1.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 wow zoomIn">
+                        <img class="first" src="img/stamp2.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 wow zoomIn">
+                        <img class="first" src="img/stamp3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second page -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="content">
+                        <a href="#">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="img/product1.png">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Geysers Valley Hotel</h3>
+                                <p class="content-text">
+                                    <i class="fa fa-map-marker"></i> Russia
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content">
+                        <a href="#">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="img/product2.jpg">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Khumbu Valley Hotel</h3>
+                                <p class="content-text">
+                                    <i class="fa fa-map-marker"></i> Nepal
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content">
+                        <a href="#">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="img/product3.jpg">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Waipi&rsquo;o Valley Hotel</h3>
+                                <p class="content-text">
+                                    <i class="fa fa-map-marker"></i> Hawaii
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="content">
+                        <a href="#">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="img/product4.jpg">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Waipi&rsquo;o Valley Hotel</h3>
+                                <p class="content-text">
+                                    <i class="fa fa-map-marker"></i> Hawaii
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="content">
+                        <a href="#">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="img/product5.jpg">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Waipi&rsquo;o Valley Hotel</h3>
+                                <p class="content-text">
+                                    <i class="fa fa-map-marker"></i> Hawaii
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="content">
+                        <a href="#">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="img/product6.jpg">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Waipi&rsquo;o Valley Hotel</h3>
+                                <p class="content-text">
+                                    <i class="fa fa-map-marker"></i> Hawaii
+                                </p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </body>
 </html>
-
