@@ -49,15 +49,16 @@
     margin-bottom: 10px
 }
 
-.content {
+.content1 {
     position: relative;
     width: 90%;
     max-width: 400px;
     margin: auto;
-    overflow: hidden
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
-.content .content-overlay {
+.content1 .content1-overlay {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     height: 99%;
@@ -72,20 +73,20 @@
     transition: all 0.4s ease-in-out 0s
 }
 
-.content:hover .content-overlay {
+.content1:hover .content1-overlay {
     opacity: 1
 }
 
-.content-image {
+.content1-image {
     width: 100%
 }
 
-.content-image {
+.content1-image {
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px
 }
 
-.content-details {
+.content1-details {
     position: absolute;
     text-align: center;
     padding-left: 1em;
@@ -102,13 +103,13 @@
     transition: all 0.3s ease-in-out 0s
 }
 
-.content:hover .content-details {
+.content1:hover .content1-details {
     top: 50%;
     left: 50%;
     opacity: 1
 }
 
-.content-details h3 {
+.content1-details h3 {
     color: #fff;
     font-weight: 500;
     letter-spacing: 0.15em;
@@ -116,7 +117,7 @@
     text-transform: uppercase
 }
 
-.content-details p {
+.content1-details p {
     color: #fff;
     font-size: 0.8em
 }
@@ -125,3 +126,68 @@
     top: 80%
 }
 
+/* third page */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.thirdp{
+    text-align: justify;
+}
+
+.background {
+    background-color: var(--background);
+    /* display: grid; */
+    /* place-items: center; */
+    /* height: 100vh; */
+}
+
+.button {
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    max-width: 160px; 
+    width: 100%; 
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    transition: all 1s ease-in;
+}
+
+.button:hover {
+    color: #8D735F;
+}
+
+.button svg {
+    height: 40px;
+    left: 0;
+    top: 0; 
+    position: absolute;
+    width: 100%; 
+}
+
+.button rect {      
+    fill: none;
+    stroke: #8D735F;
+    stroke-width: 2;
+    stroke-dasharray: 450, 0;
+    transition: all 0.5s linear;
+}
+
+.button:hover rect {
+    stroke-width: 5;
+    stroke-dasharray: 20, 300;
+    stroke-dashoffset: 48;
+    stroke: #8D735F;
+    transition: all 2s cubic-bezier(0.22, 1, 0.25, 1);
+}
+/* fourth page */
+
+.fourthbg {
+    background-image: url("img/blog-img-07.png");
+    background-color: rgba(255, 255, 255, 0.5); /* This might be causing the white overlay effect */
+    padding: 100px;
+}
