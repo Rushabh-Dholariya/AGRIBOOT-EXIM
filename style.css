@@ -54,7 +54,7 @@ nav ul li:hover ul li {
     animation: navmenu 500ms forwards;
 }
 
-@keyframes navmenu {
+/* @keyframes navmenu {
     0% {
         opacity: 0;
         top: 5px;
@@ -64,7 +64,7 @@ nav ul li:hover ul li {
         opacity: 1;
         top: 0px;
     }
-}
+} */
 
 nav ul ul li:hover ul {
     display: block;
