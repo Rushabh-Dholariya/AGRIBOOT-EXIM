@@ -99,8 +99,9 @@ nav ul ul li:hover ul {
 }
 
 .layer {
-    background-color: #ffffffe5;
+    background-color:#079247F7;
     text-align: justify;
+    color:#fff;
 }
 /* footer */
 .footers ul li {

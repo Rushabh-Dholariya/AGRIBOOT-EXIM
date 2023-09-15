@@ -73,6 +73,7 @@ nav ul ul li:hover ul {
     left: 100px;
     top: 0px;
 }
+
 /* first */
 .first li {
     list-style: none;
@@ -83,25 +84,15 @@ nav ul ul li:hover ul {
 }
 .raven{
     border: 1px solid;
-    background-color:#5f5f5f;
+    background-color: #9D6A32;
     color:#fff;
     height: 60px;
-    width: 235px;
+    width: 185px;
 }
 .raven:hover{
-    background-color: #9D6A32;
+    background-color: #234261;
 }
 
-/* second page */
-
-.fourthbg {
-    background-image: url(blog-img-07.png);
-}
-
-.layer {
-    background-color: #ffffffe5;
-    text-align: justify;
-}
 /* footer */
 .footers ul li {
     list-style: none;
