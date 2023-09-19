@@ -103,15 +103,19 @@ nav ul ul li:hover ul {
 }
 /* second page */
 
-.fourthbg {
-    background-image: url(blog-img-07.png);
+input{
+    display:flex;
+    flex-direction:column;
+    border: 0;
+    border-bottom: 1px solid #3D3D3D;
+    outline: none;
+padding:30px 0px 20px 0px;
+text-transform:capitalize;
+font-size: 18px;
+width: 230px;
+
 }
 
-.layer {
-    background-color:#079247F7;
-    text-align: justify;
-    color:#fff;
-}
 /* footer */
 .footers ul li {
     list-style: none;
