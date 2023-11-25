@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Our Products</title>
-        <link rel="stylesheet" href="Products.css">
+        <link rel="stylesheet" href="../css/style.css">
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -21,15 +21,12 @@
         >
     </head>
     <body>
-        <div class="container-fluid  border-bottom">
+        <header class="header container-fluid ">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="navbar-brand mb-4" href="#">
-                    <img
-                        class="img-fluid mt-2"
-                        src="Agriboot Exim Corporation.png"
-                        style="height: 6rem;width: 9rem;"
-                        alt=""
-                    >
+                <div class="navbar-brand mb-2">
+                    <a href="../index.html">                    
+                        <img class="img-fluid mt-2 mx-5" src="../img/Agriboot Exim Corporation.png"  alt="logo-img">
+                    </a>
                 </div>
                 <button
                     class="navbar-toggler bg-light"
@@ -42,127 +39,92 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse text-center fw-bold justify-content-evenly navbar-collapse end" id="navbarSupportedcontent">
-                    <ul class="navbar-nav mb-lg-0 gap-4 align-items-center">
+                <div class="mobile-menu collapse text-center fw-bold justify-content-end     navbar-collapse end" id="navbarSupportedcontent">
+                    <ul class="navbar-nav mb-lg-0 gap-3 align-items-center justify-content-end">
                         <li class="nav-item">
                             <a class="nav-link text-black" aria-current="page" href="../index.html">HOME</a>
+                            
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black" href="Products.html">PRODUCTS</a>
+                            <a class="nav-link text-black" href="../Products/Products.html">PRODUCTS</a>
                             <ul>
-                                <li>
-                                    <a href="../Products/Oil seed.html">Oil Seed</a>
+                                <li><a href="../Products/Oil Seed.html">Oil Seed</a>
                                     <ul>
-                                        <li>
-                                            <a href="sub-product/Peanuts.html">Peanuts</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Sesame Seed.html">Sesame seed</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Mustard Seed.html">Mustard Seed</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Sunflower Seed.html">Sunflower Seed</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Flax Seed.html">Flax Seed</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Soybean.html">Soybean</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Niger Seed.html">Niger Seed</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Nigella Seed.html">Nigella Seed</a>
-                                        </li>
+                                        <li><a href="../Products/sub-product/Peanuts.html">Peanuts</a></li>
+                                        <li><a href="../Products/sub-product/Sesame Seed.html">Sesame seed</a></li>
+                                        <li><a href="../Products/sub-product/Mustard Seed.html">Mustard Seed</a></li>
+                                        <li><a href="../Products/sub-product/Sunflower Seed.html">Sunflower Seed</a></li>
+                                        <li><a href="../Products/sub-product/Flax Seed.html">Flax Seed</a></li>
+                                        <li><a href="../Products/sub-product/Soybean.html">Soybean</a></li>
+                                        <li><a href="../Products/sub-product/Niger Seed.html">Niger Seed</a></li>
+                                        <li><a href="../Products/sub-product/Nigella Seed.html">Nigella Seed</a></li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="Spices.html">Spices</a>
-                                    <ul>
-                                        <li>
-                                            <a href="sub-product/Fenugreek Seed.html">Fenugreek Seed</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Cumin Seed.html">Cumin Seed</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Coriander Seed.html"> Coriander Seed</a>
-                                        </li>
-                                        <li>
-                                            <a href="sub-product/Fennel Seed.html">Fennel Seed</a>
-                                        </li>
-                                        <li><a href="#">Chilly</a></li>
-                                        <li><a href="#">Dill Seed</a></li>
-                                        <li><a href="#">Linseed</a></li>
-                                        <li><a href="#"> Mustard Seed</a></li>
-                                        <li><a href="#">Turmeric</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="Grains.html">Grains</a>
-                                    <ul>
-                                        <li><a href="#">Millet</a></li>
-                                        <li><a href="#">Sorghum</a></li>
-                                        <li><a href="#">Maize</a></li>
-                                        <li><a href="#">Rice</a></li>
-                                        <li><a href="#">Wheat</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="Pulses & Beans.html">Pulses & Beans</a>
-                                    <ul>
-                                        <li><a href="#">Chickpeas</a></li>
-                                        <li><a href="#">Mung Bean</a></li>
-                                        <li><a href="#">Kidney Bean</a></li>
-                                        <li><a href="#">Pigeon Peas Seed</a></li>
-                                        <li><a href="#">Yellow Peas Seed</a></li>
-                                        <li><a href="#">Black Eye Beans</a></li>
-                                        <li><a href="#">Desi Chick Peas</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="Cotton.html">Cotton</a>
-                                </li>
-                                <li>
-                                    <a href="Edible Oils.html">Edible Oil</a>
-                                </li>
-                                <li>
-                                    <a href="Dried Fruits.html">Dried fruites</a>
-                                    <ul>
-                                        <li>
-                                            <a href="#">Raisin</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="Animal Feed.html">Animal feed</a>
-                                    <ul>
-                                        <li><a href="#">Corn</a></li>
-                                        <li><a href="#">Soybean Meal</a></li>
-                                        <li><a href="#">Rape Seed Meal</a></li>
-                                        <li><a href="#">Caster Seed Meal</a></li>
-                                        <li><a href="#">Cotton Cake</a></li>
-                                        <li><a href="#">Peanut Cake</a></li>
-                                    </ul>
-                                </li>
+                            <li><a href="../Products/Spices.html">Spices</a>
+                                <ul>
+                                    <li><a href="../Products/sub-product/Fenugreek Seed.html">Fenugreek Seed</a></li>
+                                    <li><a href="../Products/sub-product/Cumin Seed.html">Cumin Seed</a></li>
+                                    <li><a href="../Products/sub-product/Coriander Seed.html"> Coriander Seed</a></li>
+                                    <li><a href="../Products/sub-product/Fennel Seed.html">Fennel Seed</a></li>
+                                    <li><a href="#">Chilly</a></li>
+                                    <li><a href="#">Dill Seed</a></li>
+                                    <li><a href="#">Linseed</a></li>
+                                    <li><a href="#"> Mustard Seed</a></li>
+                                    <li><a href="#">Turmeric</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../Products/Grains.html">Grains</a>
+                                <ul>
+                                    <li><a href="#">Millet</a></li>
+                                    <li><a href="#">Sorghum</a></li>
+                                    <li><a href="#">Maize</a></li>
+                                    <li><a href="#">Rice</a></li>
+                                    <li><a href="#">Wheat</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../Products/Pulses & Beans.html">Pulses & Beans</a>
+                                <ul>
+                                    <li><a href="#">Chickpeas</a></li>
+                                    <li><a href="#">Mung Bean</a></li>
+                                    <li><a href="#">Kidney Bean</a></li>
+                                    <li><a href="#">Pigeon Peas Seed</a></li>
+                                    <li><a href="#">Yellow Peas Seed</a></li>
+                                    <li><a href="#">Black Eye Beans</a></li>
+                                    <li><a href="#">Desi Chick Peas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../Products/Cotton.html">Cotton</a></li>
+                            <li><a href="../Products/Edible Oils.html">Edible Oil</a></li>
+                            <li><a href="../Products/Dried Fruits.html">Dried fruites</a>
+                                <ul>
+                                    <li><a href="#">Raisin</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../Products/Animal Feed.html">Animal feed</a>
+                                <ul>
+                                    <li><a href="#">Corn</a></li>
+                                    <li><a href="#">Soybean Meal</a></li>
+                                    <li><a href="#">Rape Seed Meal</a></li>
+                                    <li><a href="#">Caster Seed Meal</a></li>
+                                    <li><a href="#">Cotton Cake</a></li>
+                                    <li><a href="#">Peanut Cake</a></li>
+                                </ul>
+                            </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black" href="About Us.html">ABOUT US</a>
+                            <a class="nav-link text-black" href="../Products/About Us.html">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black" href="OUR NETWORK.html">OUR NETWORK</a>
+                            <a class="nav-link text-black" href="../Products/OUR NETWORK.html">OUR NETWORK</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black" href="Contact Us.html">CONTACT US</a>
+                            <a class="nav-link text-black" href="../Products/Contact Us.html">CONTACT US</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </div>
+        </header>
         <!-- first -->
         <div class="container-fluid ">
             <div class="row">
@@ -201,7 +163,7 @@
                     <div class="col-md-6 mt-5 d-flex justify-content-center">
                         <img
                             class="img-fluid"
-                            src="product/product_img1.jpg"
+                            src="../product/product_img1.jpg"
                             alt=""
                             style="height: 450px;width: 450px;"
                         >
@@ -212,7 +174,7 @@
                         <p class="mt-4 " style="text-align: justify;">
                             AGRIBOOT EXIM dealing in wide variety of premium quality oil seeds. These are handpicked, machine cleaned and packed for delivery to destination across the globe. Our offered oil seeds include sesame seeds, peanuts kernels, safflower seeds, mustard seeds, and sunflower seeds. All of our offered oil seeds are sourced from popular farms straight after the harvesting season.
                         </p>
-                        <button class="button raven mt-5"><a href="Oil Seed.html">MORE INSIDE</a></button>
+                        <button class="button raven mt-5"><a href="../Products/Oil Seed.html">MORE INSIDE</a></button>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
@@ -226,12 +188,12 @@
                         <p class="mt-4 " style="text-align: justify;">
                             Spices hold a potential to elevate the taste of any cuisine to several notches. The world without spices is hard to imagine. AGRIBOOT EXIM one of the renowned names in the agro-products industry - is also a leading indentor which exports to various parts of the world such as United States, Africa, Middle East, Asia, Europe, etc.
                         </p>
-                        <button class="button raven mt-5"><a href="Spices.html">MORE INSIDE</a></button>
+                        <button class="button raven mt-5"><a href="../Products/Spices.html">MORE INSIDE</a></button>
                     </div>
                     <div class="col-md-5 mt-5 d-flex justify-content-center">
                         <img
                             class="img-fluid"
-                            src="product/product_img2.jpg"
+                            src="../Products/product/product_img2.jpg"
                             alt=""
                             style="height: 450px;width: 450px;"
                         >
@@ -243,7 +205,7 @@
                     <div class="col-md-6 mt-5 d-flex justify-content-center">
                         <img
                             class="img-fluid"
-                            src="product/product_img3.jpg"
+                            src="../Products/product/product_img3.jpg"
                             alt=""
                             style="height: 450px;width: 450px;"
                         >
@@ -254,7 +216,7 @@
                         <p class="mt-4 " style="text-align: justify;">
                             AGRIBOOT EXIM provide grains that are grown in natural ambient harvesting conditions and are free from the adverse effects of any sort of chemicals. We are dealing in Basmati Rice, Non-basmati Rice, Millets, Maize, Wheat and more. Our offered variety of grains is highly suited for countless recipes and culinary applications.
                         </p>
-                        <button class="button raven mt-5"><a href="Grains.html">MORE INSIDE</a></button>
+                        <button class="button raven mt-5"><a href="../Products/Grains.html">MORE INSIDE</a></button>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
@@ -268,12 +230,12 @@
                         <p class="mt-4 " style="text-align: justify;">
                             AGRIBOOT EXIM makes sure that the products reach the destinations fresh and on the promised time. We have connections across the globe and provide hassle-free export of Indian pulses. We are believes in transparency of services and is always happy to help with any issues our clients may have. We wish to spread Pulses in India and other Indian products to every corner of the world through our services. If you want to Pulses import from India, AGRIBOOT EXIM is the place for you!
                         </p>
-                        <button class="button raven mt-5"><a href="Pulses & Beans.html">MORE INSIDE</a></button>
+                        <button class="button raven mt-5"><a href="../Products/Pulses & Beans.html">MORE INSIDE</a></button>
                     </div>
                     <div class="col-md-5 mt-5 d-flex justify-content-center">
                         <img
                             class="img-fluid"
-                            src="product/product_img4.jpg"
+                            src="../Products/product/product_img4.jpg"
                             alt=""
                             style="height: 450px;width: 450px;"
                         >
@@ -285,7 +247,7 @@
                     <div class="col-md-6 mt-5 d-flex justify-content-center">
                         <img
                             class="img-fluid"
-                            src="product/product_img5.jpg"
+                            src="../Products/product/product_img5.jpg"
                             alt=""
                             style="height: 450px;width: 450px;"
                         >
@@ -296,7 +258,7 @@
                         <p class="mt-4 " style="text-align: justify;">
                             AGRIBOOT EXIM provide all the types of Indian raw cotton from various cotton growing Indian states – mainly Shankar 6 cotton. In India different types of cotton species available like Short staple (20 mm & below) , Medium staple (20.5 to 24.5mm), Medium long (25.0 to 27.0mm), Long (27.5 to 32.0 mm) and Extra long staple cotton (32.5mm & above).
                         </p>
-                        <button class="button raven mt-5"><a href="Cotton.html">MORE INSIDE</a></button>
+                        <button class="button raven mt-5"><a href="../Products/Cotton.html">MORE INSIDE</a></button>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
@@ -310,12 +272,12 @@
                         <p class="mt-4 " style="text-align: justify;">
                             Edible oil is derived from fruits and vegetables. It is used in cooking a number of dishes. Among the various types of vegetable oil available commercially, Groundnut, Soyabean, palm, rapeseed, and sunflower oils are popular among consumers. The global edible oil market is expected to witness significant growth in the coming years on account of the rising popularity of unrefined, unprocessed, healthy, and organic vegetable oils. Vegetable oils that are low in fat, cholesterol, and calories are expected to register high growth owing to the growing health consciousness among people across the globe.
                         </p>
-                        <button class="button raven mt-5"><a href="Edible Oils.html">MORE INSIDE</a></button>
+                        <button class="button raven mt-5"><a href="../Products/Edible Oils.html">MORE INSIDE</a></button>
                     </div>
                     <div class="col-md-5 mt-5 d-flex justify-content-center">
                         <img
                             class="img-fluid"
-                            src="product/product_img7.jpg"
+                            src="../Products/product/product_img7.jpg"
                             alt=""
                             style="height: 450px;width: 450px;"
                         >
@@ -327,7 +289,7 @@
                     <div class="col-md-6 mt-5 d-flex justify-content-center">
                         <img
                             class="img-fluid"
-                            src="product/product_img8.jpg"
+                            src="../Products/product/product_img8.jpg"
                             alt=""
                             style="height: 450px;width: 450px;"
                         >
@@ -338,14 +300,14 @@
                         <p class="mt-4 " style="text-align: justify;">
                             Raisins are processed by sun drying and tray drying several different types of grapes. They are small and sweetly flavored with a wrinkled texture. Indian Raisins are available in different size and colors. They are a naturally stable food and resist spoilage due to their low moisture. AGRIBOOT EXIM provide you wide variety of premium quality raisins.
                         </p>
-                        <button class="button raven mt-5"><a href="Dried Fruits.html">MORE INSIDE</a></button>
+                        <button class="button raven mt-5"><a href="../Products/Dried Fruits.html">MORE INSIDE</a></button>
                     </div>
                     <div class="col-md-1"></div>
                 </div>
             </div>
         </div>
         <!-- footer -->
-        <div class="container-fluid footer1  p-5 text-light" style="background-color: black; ">
+        <footer class="container-fluid footer1  p-5 text-light" style="background-color: black; ">
             <div class="row p-0">
                 <div class="col-md-3">
                     <img class="img-fluid" src="Agriboot Exim Corporation.png" alt="">
@@ -358,16 +320,16 @@
                             <a href="../index.html">Home</a>
                         </li>
                         <li class="mt-2">
-                            <a href="Products.html">Products</a>
+                            <a href="../Products/Products.html">Products</a>
                         </li>
                         <li class="mt-2">
-                            <a href="About Us.html">About us</a>
+                            <a href="../Products/About Us.html">About us</a>
                         </li>
                         <li class="mt-2">
-                            <a href="OUR NETWORK.html">Our network</a>
+                            <a href="../Products/OUR NETWORK.html">Our network</a>
                         </li>
                         <li class="mt-2">
-                            <a href="Contact Us.html">Contact us</a>
+                            <a href="../Products/Contact Us.html">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -375,19 +337,19 @@
                     <ul>
                         <h4>PRODUCTS</h4>
                         <li class="mt-4">
-                            <a href="Oil Seed.html">Oil seed</a>
+                            <a href="../Products/Oil Seed.html">Oil seed</a>
                         </li>
                         <li class="mt-2">
-                            <a href="Spices.html">Spices</a>
+                            <a href="../Products/Spices.html">Spices</a>
                         </li>
                         <li class="mt-2">
-                            <a href="grains.html">Grains</a>
+                            <a href="../Products/grains.html">Grains</a>
                         </li>
                         <li class="mt-2">
-                            <a href="Pulses & Beans.html">Pulses & beans</a>
+                            <a href="../Products/Pulses & Beans.html">Pulses & beans</a>
                         </li>
                         <li class="mt-2">
-                            <a href="Cotton.html">Cotton</a>
+                            <a href="../Products/Cotton.html">Cotton</a>
                         </li>
                         <li class="mt-2">
                             <a href="Edible Oils.html">Edible oils</a>
@@ -437,6 +399,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
+
+
+        <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="../js/index.js"></script>
     </body>
 </html>

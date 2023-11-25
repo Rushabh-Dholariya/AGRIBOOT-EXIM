@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AGRIBOOT EXIM</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./css/style.css">
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -22,15 +22,13 @@
         >
     </head>
     <body>
-        <div class="container-fluid position-absolute z-2 border-bottom">
+
+        <header class="header container-fluid ">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="navbar-brand mb-4" href="#">
-                    <img
-                        class="img-fluid mt-2"
-                        src="img/Agriboot Exim Corporation.png"
-                        style="height: 6rem;width: 9rem;"
-                        alt=""
-                    >
+                <div class="navbar-brand mb-2">
+                    <a href="index.html">                    
+                        <img class="img-fluid mt-2 mx-5" src="img/Agriboot Exim Corporation.png"  alt="logo-img">
+                    </a>
                 </div>
                 <button
                     class="navbar-toggler bg-light"
@@ -43,10 +41,10 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse text-center fw-bold justify-content-evenly navbar-collapse end" id="navbarSupportedcontent">
-                    <ul class="navbar-nav mb-lg-0 gap-4 align-items-center">
+                <div class="mobile-menu collapse text-center fw-bold justify-content-end     navbar-collapse end" id="navbarSupportedcontent">
+                    <ul class="navbar-nav mb-lg-0 gap-3 align-items-center justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link text-black" aria-current="page" href="index.html">HOME</a>
+                            <a class="nav-link text-black active" aria-current="page" href="index.html">HOME</a>
                             
                         </li>
                         <li class="nav-item">
@@ -55,6 +53,7 @@
                                 <li><a href="Products/Oil Seed.html">Oil Seed</a>
                                     <ul>
                                         <li><a href="Products/sub-product/Peanuts.html">Peanuts</a></li>
+                                        
                                         <li><a href="Products/sub-product/Sesame Seed.html">Sesame seed</a></li>
                                         <li><a href="Products/sub-product/Mustard Seed.html">Mustard Seed</a></li>
                                         <li><a href="Products/sub-product/Sunflower Seed.html">Sunflower Seed</a></li>
@@ -128,13 +127,20 @@
                     </ul>
                 </div>
             </nav>
-        </div>
+        </header>
+
+
+
+
         <!-- front page -->
         <div class="container-fluid frontpage position-relative z-0 overflow-hidden px-0">
+            <div class="hero-con">
+                <h1>agri boot <br><span>exim</span> <span class="corpo">Corporation</span></h1>
+            </div>
             <div class="row">
-                <div class="col">
-                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                <div class="col position-relative">
+                    <div id="carouselExampleFade" class="position-relative carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner position-relative">
                             <div class="carousel-item active" style="height: 45rem;">
                                 <img
                                     src="img/first.png"
@@ -176,6 +182,7 @@
                                 >
                             </div>
                         </div>
+
                         <button
                             class="carousel-control-prev"
                             type="button"
@@ -194,108 +201,113 @@
                             <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
                             <span class="visually-hidden">Next</span>
                         </button>
+
                     </div>
+
                 </div>
             </div>
         </div>
         <!-- first page -->
-        <div class="container-fluid firstbg">
+        <div class="container-fluid firstbg ">
             <div class="container">
-                <div class="row text-center mb-5">
-                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 wow zoomIn">
+                <div class="d-flex align-items-center justify-content-between py-5 flex-wrap gap-5 sec-2 text-center">
+                    <div class="sec-box bg-white wow zoomIn">
                         <img class="first" src="img/stamp1.png" alt="">
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 wow zoomIn">
+                    <div class="sec-box bg-white wow zoomIn">
                         <img class="first" src="img/stamp2.png" alt="">
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mb-5 wow zoomIn">
+                    <div class="sec-box bg-white wow zoomIn">
                         <img class="first" src="img/stamp3.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
         <!-- second page -->
-        <div class="container">
+        <div class="container section-padding">
             <div class="row">
                 <div class="text-center mb-5">
-                    <h1>Our Products</h1>
+                    <h2>Our Products</h2>
                 </div>
-                <div class="col-md-4 mt-5">
-                    <div class="content1">
-                        <a href="Products/Products.html">
-                            <div class="content1-overlay"></div>
-                            <img class="content1-image" src="img/product1.png">
-                            <div class="content1-details fadeIn-bottom">
-                                <h3 class="content1-title">OIL SEED</h3>
-                                <p class="content1-text"></p>
-                            </div>
-                        </a>
+                <div class="gallery-wrap">
+                    <div class="gallery">
+                        <div class="content1">
+                            <a href="Products/Products.html">
+                                <div class="content1-overlay"></div>
+                                <img class="content1-image" src="img/product1.png">
+                                <div class="content1-details fadeIn-bottom">
+                                    <h3 class="content1-title">OIL SEED</h3>
+                                    <p class="content1-text"></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="content1">
+                            <a href="Products/Products.html">
+                                <div class="content1-overlay"></div>
+                                <img class="content1-image" src="img/product2.jpg">
+                                <div class="content1-details fadeIn-bottom">
+                                    <h3 class="content1-title">SPICES</h3>
+                                    <p class="content1-text"></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="content1">
+                            <a href="Products/Products.html">
+                                <div class="content1-overlay"></div>
+                                <img class="content1-image" src="img/product3.jpg">
+                                <div class="content1-details fadeIn-bottom">
+                                    <h3 class="content1-title">GRAINS</h3>
+                                    <p class="content1-text"></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="content1">
+                            <a href="Products/Products.html">
+                                <div class="content1-overlay"></div>
+                                <img class="content1-image" src="img/product4.jpg">
+                                <div class="content1-details fadeIn-bottom">
+                                    <h3 class="content1-title">PULSES & BEANS</h3>
+                                    <p class="content1-text"></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="content1">
+                            <a href="Products/Products.html">
+                                <div class="content1-overlay"></div>
+                                <img class="content1-image" src="img/product5.jpg">
+                                <div class="content1-details fadeIn-bottom">
+                                    <h3 class="content1-title">COTTON</h3>
+                                    <p class="content1-text"></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="content1">
+                            <a href="Products/Products.html">
+                                <div class="content1-overlay"></div>
+                                <img class="content1-image" src="img/product6.jpg">
+                                <div class="content1-details fadeIn-bottom">
+                                    <h3 class="content1-title">EDIBLE OILS</h3>
+                                    <p class="content1-text"></p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-5">
-                    <div class="content1">
-                        <a href="Products/Products.html">
-                            <div class="content1-overlay"></div>
-                            <img class="content1-image" src="img/product2.jpg">
-                            <div class="content1-details fadeIn-bottom">
-                                <h3 class="content1-title">SPICES</h3>
-                                <p class="content1-text"></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="content1">
-                        <a href="Products/Products.html">
-                            <div class="content1-overlay"></div>
-                            <img class="content1-image" src="img/product3.jpg">
-                            <div class="content1-details fadeIn-bottom">
-                                <h3 class="content1-title">GRAINS</h3>
-                                <p class="content1-text"></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="content1">
-                        <a href="Products/Products.html">
-                            <div class="content1-overlay"></div>
-                            <img class="content1-image" src="img/product4.jpg">
-                            <div class="content1-details fadeIn-bottom">
-                                <h3 class="content1-title">PULSES & BEANS</h3>
-                                <p class="content1-text"></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="content1">
-                        <a href="Products/Products.html">
-                            <div class="content1-overlay"></div>
-                            <img class="content1-image" src="img/product5.jpg">
-                            <div class="content1-details fadeIn-bottom">
-                                <h3 class="content1-title">COTTON</h3>
-                                <p class="content1-text"></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="content1">
-                        <a href="Products/Products.html">
-                            <div class="content1-overlay"></div>
-                            <img class="content1-image" src="img/product6.jpg">
-                            <div class="content1-details fadeIn-bottom">
-                                <h3 class="content1-title">EDIBLE OILS</h3>
-                                <p class="content1-text"></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+
             </div>
         </div>
         <!-- third page -->
-        <div class="container-fluid mt-5" style="background-color: #F0F0F0;">
+        <div class="container-fluid mt-5 section-padding" style="background-color: #F0F0F0;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 mt-5 mb-5">
@@ -335,45 +347,45 @@
             </div>
         </div>
         <!-- fourth page -->
-        <div class="container-fluid fourthbg px-0">
+        <div class="container-fluid fourthbg px-0 section-padding">
             <div class="layer">
-                <div class="container px-0">
+                <div class=" container  px-0">
                     <div class="row">
                         <div class="text-center mt-5">
-                            <h1>Our Specialities</h1>
+                            <h2>Our Specialities</h2>
                         </div>
-                        <div class="col-md-4 text-center p-5">
-                            <i class="fa-solid fa-user-check fa-4x"></i>
-                            <p>Assured quality</p>
-                        </div>
-                        <div class="col-md-4 text-center p-5">
-                            <i class="fa-solid fa-user-clock fa-4x"></i>
-                            <p>Timely execution of deal</p>
-                        </div>
-                        <div class="col-md-4 text-center p-5">
-                            <i class="fa-solid fa-circle-check fa-4x"></i>
-                            <p>Wonderful service for enhancing customer experience</p>
-                        </div>
-                        <div class="col-md-1 text-center d-none d-sm-flex"></div>
-                        <div class="col-md-3 text-center p-5">
-                            <i class="fa-solid fa-gear fa-4x"></i>
-                            <p>Providing exact market situation guidance to the buyer</p>
-                        </div>
-                        <div class="col-md-4 p-5 text-center">
-                            <i class="fa-solid fa-users fa-4x"></i>
-                            <p>Experienced Team</p>
-                        </div>
-                        <div class="col-md-3 p-5 text-center">
-                            <i class="fa-solid fa-map-location-dot fa-4x"></i>
-                            <p>Large Supplier & Buyer Base</p>
-                        </div>
-                        <div class="col-md-1 text-center d-none d-sm-flex"></div>
+                        <div class="Specialities d-flex flex-wrap gap-0">
+                            <div class="box col-md-4 text-center py-5">
+                                <i class="fa-solid fa-user-clock fa-4x"></i>
+                                <p class="pt-3">Timely execution of deal</p>
+                            </div>
+                            <div class="box col-md-4 text-center py-5">
+                                <i class="fa-solid fa-circle-check fa-4x"></i>
+                                <p class="pt-3">Wonderful service for enhancing customer experience</p>
+                            </div>
+                            <div class="box col-md-4 text-center py-5">
+                                <i class="fa-solid fa-gear fa-4x"></i>
+                                <p class="pt-3">Providing exact market situation guidance to the buyer</p>
+                            </div>
+                            <div class="box col-md-4 py-5 text-center">
+                                <i class="fa-solid fa-users fa-4x"></i>
+                                <p class="pt-3">Experienced Team</p>
+                            </div>
+                            <div class="box col-md-4 py-5 text-center">
+                                <i class="fa-solid fa-map-location-dot fa-4x"></i>
+                                <p class="pt-3">Large Supplier & Buyer Base</p>
+                            </div>
+                            <div class="box col-md-4 text-center py-5">
+                                <i class="fa-solid fa-user-check fa-4x"></i>
+                                <p class="pt-3">Assured quality</p>
+                            </div>
+                        </div>                       
                     </div>
                 </div>
             </div>
         </div>
         <!-- footer -->
-        <div class="container-fluid footer1  pt-5 ps-5 pe-5 text-light" style="background-color: black; ">
+        <div class="container-fluid footer1  pt-5 ps-5 pe-5 text-light section-padding" style="background-color: black; ">
             <div class="row p-0">
                 <div class="col-md-3">
                     <img class="img-fluid" src="img/Agriboot Exim Corporation.png" alt=""style="height: 75%;width: auto;">
@@ -436,7 +448,7 @@
                     Rajkot Junagadh Highway Sabalpur, Junagadh,
                     JUNAGADH, GUJARAT, 362001
                     </p>
-                    <div class="d-flex">
+                    <div class="d-flex social">
                         <div class="fy">
                             <a href="https://www.facebook.com/profile.php?id=100086553786058&mibextid=ZbWKwL">
                                 <i class="fa-brands fa-facebook fa-2x" ></i>
@@ -472,5 +484,10 @@
                 </div>
             </div>
         </div>
+
+
+
+<script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/index.js"></script>
     </body>
 </html>
